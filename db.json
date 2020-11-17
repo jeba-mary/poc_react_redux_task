@@ -1,0 +1,40 @@
+{
+  "employees": [
+    {
+      "firstName": "jeba",
+      "middleName": "mary",
+      "lastName": "m",
+      "dob": "",
+      "gender": "female",
+      "nationality": "",
+      "ethenicity": "",
+      "status": "",
+      "spouseName": "",
+      "id": 1
+    },
+    {
+      "firstName": "garnat",
+      "middleName": "m",
+      "lastName": "daffodil",
+      "dob": "",
+      "gender": "",
+      "nationality": "",
+      "ethenicity": "",
+      "status": "",
+      "spouseName": "",
+      "id": 2
+    },
+    {
+      "firstName": "asd",
+      "middleName": "aa",
+      "lastName": "sd",
+      "dob": "2020-11-17T13:36:25.000Z",
+      "gender": "female",
+      "nationality": "asd",
+      "ethenicity": "asd",
+      "status": "married",
+      "spouseName": "asd",
+      "id": 3
+    }
+  ]
+}
