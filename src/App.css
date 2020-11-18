@@ -1,38 +1,144 @@
-/* .App {
-  text-align: center;
-}
+/* LoginPage */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.submit {
+  border-radius: 4px;
   color: white;
+  background-color: #15c39a;
 }
 
-.App-link {
-  color: #61dafb;
+/* Dashboard */
+
+.dashboard {
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.user-info {
+  margin-top: 20px;
+}
+.profile {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+
+.jumbotron{
+ margin-top: 20px;
+}
+
+.slider_img {
+  border-radius: 10px;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.videos_info {
+  margin-top: 20px;
+}
+
+.employee-list {
+  margin-top: 20px;
+}
+
+.todo {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.employee-list {
+  margin-top: 20px;
+}
+
+.table {
+  margin-top: 10px;
+}
+
+.personel-info {
+  margin-top: 20px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.family-info {
+  margin-top: 20px;
+}
+.education-info {
+  margin-top: 20px;
+
+}
+.experience-info {
+  margin-top: 20px;
+}
+
+.btn {
+  border-radius: 4px;
+  color: white;
+  background-color: #15c39a;
+}
+
+.heading {
+  margin-top: 20px;
+}
+
+.company-name{
+  font-size: 5em; 
+  font-family: serif; 
+  color: transparent; 
+  animation: effect 2s linear infinite; 
+}
+.footer {
+  margin-top: 20px;
+}
+.content {
+  color: #0c5460;
+  background-color: #e9ecef;
+  border-color: black;
+  position: relative;
+  padding: .75rem 0.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+@keyframes effect { 
+  0% { 
+      background: linear-gradient( 
+          #008000, #00FF00); 
+      -webkit-background-clip: text; 
+  } 
+
+  100% { 
+      background: linear-gradient( 
+          #3CE7D7, #000FFF); 
+      -webkit-background-clip: text; 
+  } 
+} 
+
+.check {
+  width: 10%;
+}
+
+
+.myContainer, 
+    .myContainer > div.react-datepicker-wrapper, 
+    .myContainer > div > div.react-datepicker__input-container
+    .myContainer > div > div.react-datepicker__input-container input {
+       width: 100%;
+       height: 100%;
+    }
+    .react-datepicker__input-container  {
+        width: inherit;
+        height: inherit;
+      }
+      .react-datepicker__input-container input {
+        width: inherit;
+        height: 40px;
+        display: block;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+      }

@@ -2,6 +2,7 @@ import axios from 'axios';
 import history from '../history';
 
 export const SIGN_IN = 'SIGN_IN';
+export const FETCH_PROFILES = 'FETCH_PROFILES';
 export const FETCH_EMPLOYEES = 'FETCH_EMPLOYEES';
 export const CREATE_EMPLOYEE = 'CREATE_EMPLOYEE';
 
@@ -12,6 +13,18 @@ export const login = (data) => {
       user: data
     })
     history.push('/dashboard');
+  }
+}
+
+export const fetchProfiles = () => {
+  return dispatch => {
+    return axios.get("http://localhost:3002/profiles").then((response) => {
+      console.log(response);
+      dispatch({ 
+        type: FETCH_PROFILES, 
+        payload: response.data 
+      });
+    })
   }
 }
 

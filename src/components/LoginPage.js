@@ -24,7 +24,7 @@ class LoginPage extends React.Component {
     return (
       <div class="container">
         <div className="heading text-center">
-          <h4>ramco</h4>
+          <h3 class="company-name">ramco</h3>
           <p>Welcomes you onboard!</p>
         </div>
         <div className="jumbotron">
@@ -38,7 +38,7 @@ class LoginPage extends React.Component {
                       <div class="form-group">
                         <input name="password" type="password" value={this.state.password} onChange={this.handleChange} class="form-control"  id="pwd" placeholder="Password" />
                       </div>
-                      <button class="submit btn " type="submit">Sign In</button>
+                      <button class="submit btn" type="submit">Sign In</button>
                     </form>
                   </div>
                 </div>

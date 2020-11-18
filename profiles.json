@@ -1,0 +1,35 @@
+{
+  "profiles": [
+    {
+      "name": "jeba",
+      "description": "A warm welcome to the Ramco System's Family!!",
+      "profile_image": "https://lavinephotography.com.au/wp-content/uploads/2017/01/PROFILE-Photography-112.jpg",
+      "company_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "videos": [
+        {
+          "img": "https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        },
+        {
+          "img": "https://images.pexels.com/photos/531844/pexels-photo-531844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        },
+        {
+          "img": "https://images.pexels.com/photos/843227/pexels-photo-843227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        },
+        {
+          "img": "https://images.pexels.com/photos/365637/pexels-photo-365637.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        }
+      ],
+      "data": [
+        {
+          "image": "data:image/png;base64,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",
+          "text": "Fill in your personel Details"
+        },
+        {
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Pdf-2127829.png",
+          "text": "Instruction GuideLines"
+        }
+      ]
+
+    }
+  ]
+}
